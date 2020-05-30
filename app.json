@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Pomodoro App",
+    "slug": "pomodoro",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aapiro.pomodoro",
+      "buildNumber": "0.0.2"
+    },
+    "android": {
+      "package": "com.aapiro.pomodoro",
+      "versionCode": 2
+    }
+  }
+}
